@@ -5,9 +5,9 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
 	<!-- Include a sitewide CSS file for consistent styling across the site -->
-	<link rel="stylesheet" type="text/css" href="css/site.css">
+	<link rel="stylesheet" type="text/css" href="./css/site.css">
 	<!-- Lab-specifc CSS file for any special styling of this particular page -->
-	<link rel="stylesheet" type="text/css" href="css/homepage.css">
+	<link rel="stylesheet" type="text/css" href="./css/homepage.css">
 	<!-- Link to javascript file - DEFER waits until all elements are rendered -->
 
 	<!-- <script type="text/javascript" src="./js/lab.js" DEFER></script> -->
@@ -19,16 +19,26 @@
 			<h1>Kareem's Homepage</h1>
 			<div class="minor-section">
 					<!-- Note that all filenames use lowercase and no spaces -->
-					<img class="cat-photo" src="./img/cute-grey-kitten.jpg">
+					<img id="my-portrait" src="./img/selfie.jpg">
 					<h2>About Me</h2>
-					<p>Tell us about yourself. Add photos. Customize this. Go crazy.</p>
+					<p> HI! I'm Kareem. I am a third year AGPM major. I play a lot of video games, mainly I've been
+						playing a lot of Rimworld, Tekken 8, Valorant, and League of Legends.
+					</p>
 			</div>
 
 		</section>
-		<nav id="links">
+		<div class="assignments-major-section">
+			<h2>Labs</h2>
 			<!-- Put links to labs here. -->
-			<a href = "lab2/index.html">Lab 2</a>
-		</nav>
+			<ul>
+				<li><a href = "./lab2/index.html">Lab 2 HTML & CSS Starter</a></li>
+				<li><a href = "./lab3/">Lab 3 File Structure and File Transfer</a></li>
+				<li><a href = "./lab4/">Lab 4 Pseudocode and Problem-solving</a></li>
+				<li><a href = "./lab5/">Lab 5</a></li>
+				<li><a href = "./lab1/">Lab 6</a></li>
+			</ul>
+			
+		</div>
 	</main>
 </body><!-- This title is used for tabs and bookmarks -->
 	<title>Kareem's Homepage</title>

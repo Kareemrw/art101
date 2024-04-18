@@ -1,6 +1,11 @@
 /* this css file will only style the homepage of our site */
 
-.cat-photo {
-  margin: 10px;
-  max-width: 500px;
+#my-portrait {
+  width: 500px;
+}
+.assignments-major-section{
+  padding: 10px;
+  margin-bottom: 10px;
+  border: solid 1px #888;
+  background-color: #A3C9A8;
 }
