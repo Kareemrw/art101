@@ -33,4 +33,10 @@ h1 {
   margin-bottom: 10px;
   border: solid 1px #888;
   background-color: #A3C9A8;
+  overflow: auto;
+ 
+}
+.image{
+  float: right;
+  margin-right: 70%;
 }
