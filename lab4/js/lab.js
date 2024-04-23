@@ -1,21 +1,17 @@
-// index.js - purpose and description here
-// Author: Your Name
-// Date:
+// Rock, Paper, Scissors
+// An implementation of the game
+// Kareem Wellington <krwellin@ucsc.edu>
+// April 2024
 
-// Constants
-
-// Functions
-
-// this is an example function and this comment tells what it doees and what parameters are passed to it.
-function myFunction(param1, param2) {
-  // some code here
-  // return results;
-}
-
-function main() {
-  console.log("Main function started.");
-  // the code that makes everything happen
-}
-
-// let's get this party started
-main();
+//Loop to checking if win condition is met 
+  //Print out each option: Rock, Paper, Scissors
+  //Allow the user to select Rock, Paper, or Scissors
+  //Have computer randomly select Rock, Paper, or Scissors
+  //If User and Computer selected the same thing
+    //Restart Game
+  //If they are different, choose the winner
+    //User selects rock and computer selects scissors or User selects scissors and computer selects paper or User selects paper and computer selects rock
+      //User wins
+  //If none of those conitions are met
+    //Computer wins
+    
