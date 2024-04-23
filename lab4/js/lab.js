@@ -15,5 +15,4 @@
 	//User selects rock and computer selects scissors or User selects scissors and computer selects paper or User selects paper and computer selects rock
 		//User wins
 	//If none of those conitions are met
-		//Computer wins
-    
+		//Computer wins   
