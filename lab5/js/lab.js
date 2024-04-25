@@ -2,7 +2,6 @@
 // Author: Kareem Wellington <krwellin@ucsc.edu>
 // Date: 25 April
 
-
 // Defining Variables
 let make = "Lexus";
 let model = "CT 200h";
