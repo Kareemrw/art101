@@ -11,7 +11,9 @@ const myTransport = ['foot', 'car', 'bus'];
 const myMainRide = {
   make: "Lexus",
   model: "CT200h",
+  color: "silver",
   year: 2012,
+  
   age: function(){
     return 2024 - this.year;
   }
