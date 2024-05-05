@@ -13,7 +13,6 @@ const myMainRide = {
   model: "CT200h",
   color: "silver",
   year: 2012,
-  
   age: function(){
     return 2024 - this.year;
   }
