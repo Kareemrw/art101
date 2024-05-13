@@ -1,0 +1,8 @@
+
+.special {
+  padding: 10px;
+  margin-bottom: 10px;
+  border: dotted 10px hsl(0, 61%, 64%);
+  background-color: #4ce661;
+  overflow: auto;
+}
