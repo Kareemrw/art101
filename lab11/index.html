@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<!-- This title is used for tabs and bookmarks -->
+	<title>Lab 11 - Javascripts Events and Forms</title>
+
+	<!-- Use UTF character set, a good idea with any webpage -->
+  	<meta charset="UTF-8" />
+	<!-- Set viewport so page remains consistently scaled w narrow devices -->
+  	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	
+	<!-- Include a sitewide CSS file for consistent styling across the site -->
+	<link rel="stylesheet" type="text/css" href="../css/site.css">
+	<link rel="stylesheet" type="text/css" href="./css/lab.css">
+
+	
+	<!-- load jQuery library to make javascript easier (must be above our lab js)-->
+	<script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+	<!-- Link to javascript file - DEFER waits until all elements are rendered -->
+	<script src="js/lab.js" DEFER></script>
+</head>
+<body>
+	<!-- Style this page by changing the CSS in ../css/site.css or css/lab.css -->
+	<main id="content">
+		<section>
+			<h1>Lab 11 - JavaScript Events and Forms</h1>
+			
+			<div class="minor-section">
+				<div id = "img-out">
+					<div class =image>
+						<img src = "./img/nametag.jpg"width = 400>
+						<div class = overlay-text>
+							<h1 id="nametag"></h1>
+						</div> 
+					</div>
+				</div>
+					<h2>Challenge</h2>
+					<p>For this lab we experimented with JS events and made a name sorter once again</p>
+
+					<h2>Problems</h2>
+					<p>The main portion of this lab was straightforward because it was pretty similar to what we had done in the past. Task
+						X was pretty hard for me though. I decided to make an anagram function, but this was a lot harder than I thought it would be
+						I had to figure out how to make a function that could shuffle the letters in my array, I learned how to 
+						after searching Stack Overflow. There I learned about the Fisher Yates algorithm, but I wasnt done there. I forgot that for my 
+						sort function I made two arrays of shuffled words and I wanted to maintain that feature, so I had to use a nested forloop
+						to iterate through both of arrays and shuffle them.
+					</p>
+			
+					<h2>Results</h2>
+					<p>Type in the box and click submit to make an anagram of your name!</p>
+			</div>
+			<div id="output"></div>
+			<input  type="text" id="user-name" placeholder="Input your name">
+			<button id="submit">Submit</button>
+		</section>
+		<nav id="links">
+			<!-- Put links to other pages (including the homepage) here. -->
+			<ul>
+				<li><a href = "../index.html">Homepage</a></li>
+				<li><a href = "./lab2/index.html">Lab 2 HTML & CSS Starter</a></li>
+				<li><a href = "./lab3/index.html">Lab 3 File Structure and File Transfer</a></li>
+				<li><a href = "./lab4/index.html">Lab 4 Pseudocode and Problem-solving</a></li>
+				<li><a href = "./lab5/index.html">Lab 5 Data Types and Variables</a></li>
+				<li><a href = "./lab6/index.html">Lab 6 Arrays and Objects</a></li>
+				<li><a href = "./lab7/index.html">Lab 7 Functions</a></li>
+				<li><a href = "./lab8/index.html">Lab 8 Anon Functions and Callbacks</a></li>
+				<li><a href = "./lab9/index.html">Lab 9 Libraries and jQuery</a></li>
+				<li><a href = "./lab10/index.html">Lab 10 JavaScript for the Web</a></li>
+			</ul>
+		</nav>
+	</main>
+</body>
+</html>

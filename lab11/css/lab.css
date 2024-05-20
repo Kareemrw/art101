@@ -1,0 +1,31 @@
+/* Here we can set styles for this lab page that we don't want to effect others pages */
+
+/* the period in a CSS selector selects an element by class, e.g., class="minor-section" */
+.output {
+  padding: 10px;
+  margin-bottom: 10px;
+  border: solid 1px #888;
+  background-color: #A3C9A8;
+  overflow: auto;
+}
+ 
+
+.image {
+  position: relative;
+  float: right;
+}
+
+.image img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+.overlay-text {
+  position: absolute;
+  top: 50%; 
+  left: 50%; 
+  transform: translate(-50%, -30%); 
+  padding: 10px 20px; 
+  font-size: 20px; 
+  text-align: center;
+}
